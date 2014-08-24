@@ -1,0 +1,13 @@
+Package: uniaxialOptics
+Version: 0.1
+Date: 2008-07-08
+Title: Modelling multilayer anisotropic stacks
+Author: Steph Cornford <eltadcirad@gmail.com>
+Maintainer: Steph Cornford <eltadcirad@gmail.com>
+Suggests: EricksenLeslie
+Description: Computes transmission and/or reflection through
+             a 1D optical uniaxial stack, such as a liquid crystal cell. 
+             Available methods: Ko variant of Berremans 4x4 Matrix Method,
+	     	                Lien variant of Extended Jones Method
+License: GPL (>=2)
+URL: http://r-forge.r-project.org/projects/photonics/

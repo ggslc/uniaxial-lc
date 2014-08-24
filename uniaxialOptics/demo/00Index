@@ -1,0 +1,5 @@
+conoscopy computes conoscopy figures by ko and line methods in red and blue
+lc_conoscopy	computes and shows conoscopy figures for some liquid crystal cells
+SPP	surface plasma polariton/ Fabry-Perot calculation, angle scan at multiple wavelengths, showing sensitivity to change in optic axis only near lower surface
+
+

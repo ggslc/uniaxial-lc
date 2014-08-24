@@ -1,0 +1,13 @@
+Package: EricksenLeslie
+Version: 0.11
+Date: 2008-07-08
+Title: numerical solution of Ericsken-Leslie equations for 1D liquid crystal cells
+Author: Steph Cornford <eltadcirad@gmail.com>
+Maintainer: Steph Cornford <eltadcirad@gmail.com>
+Suggests: uniaxialOptics
+Description: A 1D finite volume model of the
+	Ericksen-Leslie equations for nematic liquid crytsals.
+	Includes pressure driven flow, flexoelectricity, 
+        ion drift-diffusion equations.
+License: GPL (>=2)
+URL: http://r-forge.r-project.org/projects/photonics/

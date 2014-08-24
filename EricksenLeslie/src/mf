@@ -1,0 +1,20 @@
+CPP=g++ 
+FC=g77
+LD=g++
+
+CPPFLAGS=-fPIC -g -O2
+FFLAGS=-fPIC -g -O2
+SHLIB=-shared
+LFLAGS=-shared -L/usr/lib/gcc/x86_64-linux-gnu/3.4.5 -lg2c -lm -lgcc_s -L/usr/lib/R/lib -lR
+
+OBJS=dynamics.o state.o  lc_dynamics_r.o 
+
+dynamics.o: dynamics.cpp dynamics.hh state.hh
+state.o: state.cpp state.hh
+lc_dynamics_r.o: lc_dynamics_r.cpp dynamics.hh state.hh 
+
+EricksenLeslie.so: $(OBJS)
+	$(CPP) -o EricksenLeslie.so $(OBJS) $(LFLAGS)
+
+clean: 
+	rm *.o *.so
