@@ -1,0 +1,17 @@
+Package: constants
+Type: Package
+Title: Defines some physical constants and functions commonly used in
+    optics, plasmonics.
+Version: 1.1
+Date: 2009-12-20
+Author: Baptiste Auguie
+Maintainer: Baptiste Auguie <baptiste.auguie@gmail.com>
+Description: Physical constants. Gold, silver and glass permittivities,
+    together with spline interpolation functions. N and k / epsilon
+    conversion both ways. energy/ wavelength conversion. Fano and
+    Lorentzian functions, drude model.
+License: GPL (>=2)
+Depends: R (>= 1.8.0)
+URL: http://r-forge.r-project.org/projects/photonics/
+LazyLoad: yes
+

@@ -1,0 +1,68 @@
+%
+%  constants
+%
+%  Created by baptiste auguie on 2008-05-05.
+%  Copyright (c) 2008 Thin Film Photonics - Exeter Uni. All rights reserved.
+%
+
+\documentclass{article}
+
+\usepackage{graphics}
+\usepackage{sistyle}
+\usepackage{amsmath}
+\usepackage{indentfirst}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% \VignetteIndexEntry{constants Example}
+
+\begin{document}
+
+<<foo,include=FALSE,echo=FALSE>>=
+options(keep.source = TRUE)
+foo <- packageDescription("constants")
+@
+\lstset{showstringspaces=false,%
+     frame={tb},%
+     lineskip=-1pt,%
+     extendedchars=true,%
+	 keywordstyle=\color{blue}\bfseries, 
+     basicstyle=\footnotesize\ttfamily,%
+	 stringstyle=\ttfamily, % typewriter type for strings 
+     stepnumber=1,%
+     numberstyle=\color{red}\tiny,%
+     xleftmargin=2em,%
+     breaklines}
+
+	
+\title{constants Package Example (Version \Sexpr{foo$Version})}
+\author{Baptiste Augui\'e}
+\maketitle
+
+% \lstinputlisting{../../DESCRIPTION}
+
+\section{Introduction}
+This document provides examples of using the \verb@constants@ package in R. 
+<<functions>>=
+library(constants)
+ls("package:constants")
+@
+
+
+
+\section{Examples} % (fold)
+\label{sec:examples}
+% \lstinputlisting[language=R]{../examples/test.r}
+
+% <<example, width=5, height=4, fig=FALSE, echo=FALSE>>=
+%  source("../examples/test.r")
+% @
+% 
+% \begin{figure} 
+%   \includegraphics[width=14.5cm]{Rplots} 
+% \end{figure}
+% section examples (end)
+
+
+\end{document}
