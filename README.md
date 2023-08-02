@@ -1,4 +1,4 @@
 uniaxial-lc
 ===========
 
-R packages for 1D uniaxlai liquid crystal dynamics and optics
+R packages for 1D uniaxial liquid crystal dynamics and optics
